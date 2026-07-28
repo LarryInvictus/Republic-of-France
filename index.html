@@ -2,50 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Prizak France Hub</title>
+  <title>The Republic of France</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
+  <div class="container">
+    <header class="header">
+      <div class="flag"></div>
+      <h1>The Republic of France</h1>
+      <p>Bienvenue à notre communauté.</p>
+    </header>
 
-  <header class="header">
-    <div class="flag"></div>
-    <h1>Prizak France Hub</h1>
-    <p>Bienvenue — communauté française</p>
-  </header>
+    <main class="main">
+      <p class="description">
+        Join our French‑styled Discord community and be part of the Republic.
+      </p>
 
-  <div class="auth-box">
-    <h2>Account</h2>
-
-    <div id="authStatus">Not logged in</div>
-
-    <input id="email" placeholder="Email">
-    <input id="password" type="password" placeholder="Password">
-
-    <button id="registerBtn">Register</button>
-    <button id="loginBtn">Log In</button>
-    <button id="logoutBtn" style="display:none;">Log Out</button>
+      <button id="joinFranceBtn" class="join-btn">
+        🇫🇷 Join France
+      </button>
+    </main>
   </div>
 
-  <div class="invite-box">
-    <h2>Discord</h2>
-    <button id="inviteBtn">🇫🇷 Join Prizak</button>
-  </div>
-
-  <div class="chat-box">
-    <h2>Live Chat</h2>
-
-    <div id="messages" class="messages"></div>
-
-    <div class="chat-input">
-      <input type="text" id="chatInput" placeholder="Type a message…">
-      <button id="sendBtn">Send</button>
-    </div>
-  </div>
-
-</div>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
