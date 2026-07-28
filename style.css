@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  background: #f5f5f5;
+  background: #f4f4f4;
   font-family: Arial, sans-serif;
-  color: #222;
 }
 
 .container {
@@ -13,23 +12,31 @@ body {
 
 .header {
   text-align: center;
-  padding: 20px 0;
+  margin-bottom: 20px;
 }
 
 .flag {
-  width: 60px;
-  height: 40px;
+  width: 70px;
+  height: 45px;
   margin: 0 auto 10px;
   background: linear-gradient(to right, #0055A4 33%, #fff 33%, #fff 66%, #EF4135 66%);
   border: 2px solid #ccc;
 }
 
-.invite-box, .auth-box, .chat-box {
+.auth-box, .invite-box, .chat-box {
   background: white;
   padding: 15px;
   border-radius: 10px;
   margin-top: 20px;
   border: 1px solid #ddd;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
 }
 
 button {
@@ -39,7 +46,7 @@ button {
   padding: 10px 14px;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 14px;
+  margin-top: 10px;
 }
 
 button:hover {
@@ -47,7 +54,7 @@ button:hover {
 }
 
 .messages {
-  height: 250px;
+  height: 300px;
   overflow-y: auto;
   background: #fafafa;
   border: 1px solid #ddd;
@@ -56,22 +63,10 @@ button:hover {
 }
 
 .message {
-  padding: 6px 8px;
-  background: #fff;
+  background: white;
   border: 1px solid #eee;
+  padding: 8px;
   border-radius: 6px;
   margin-bottom: 8px;
-}
-
-.chat-input {
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
-}
-
-.chat-input input {
-  flex: 1;
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
+  word-wrap: break-word;
 }
